@@ -1,43 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.text.Font?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
 <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="812.0" style="-fx-background-color: #aaa;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.Main">
     <top>
-        <MenuBar BorderPane.alignment="CENTER">
+        <MenuBar fx:id="menu_bar" BorderPane.alignment="CENTER">
             <menus>
                 <Menu mnemonicParsing="false" text="员工资料管理">
                     <items>
-                        <MenuItem fx:id="menu_staff_new" mnemonicParsing="false" text="添加员工"/>
-                        <MenuItem fx:id="menu_staff_modify" mnemonicParsing="false" text="修改资料"/>
-                        <MenuItem fx:id="menu_staff_query" mnemonicParsing="false" text="员工查询"/>
-                        <MenuItem fx:id="menu_staff_delete" mnemonicParsing="false" text="删除员工"/>
+                        <MenuItem fx:id="menu_staff_new" mnemonicParsing="false" text="添加员工" />
+                        <MenuItem fx:id="menu_staff_modify" mnemonicParsing="false" text="修改资料" />
+                        <MenuItem fx:id="menu_staff_query" mnemonicParsing="false" text="员工查询" />
+                        <MenuItem fx:id="menu_staff_delete" mnemonicParsing="false" text="删除员工" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="部门信息管理">
                     <items>
-                        <MenuItem fx:id="menu_department_new" mnemonicParsing="false" text="添加部门"/>
-                        <MenuItem fx:id="menu_department_modify" mnemonicParsing="false" text="修改资料"/>
-                        <MenuItem fx:id="menu_department_query" mnemonicParsing="false" text="部门查询"/>
-                        <MenuItem fx:id="menu_department_delete" mnemonicParsing="false" text="删除部门"/>
+                        <MenuItem fx:id="menu_department_new" mnemonicParsing="false" text="添加部门" />
+                        <MenuItem fx:id="menu_department_modify" mnemonicParsing="false" text="修改资料" />
+                        <MenuItem fx:id="menu_department_query" mnemonicParsing="false" text="部门查询" />
+                        <MenuItem fx:id="menu_department_delete" mnemonicParsing="false" text="删除部门" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="员工资管理">
                     <items>
-                        <MenuItem fx:id="menu_wage_query" mnemonicParsing="false" text="工资查询"/>
-                        <MenuItem fx:id="menu_wage_set" mnemonicParsing="false" text="工资设定"/>
+                        <MenuItem fx:id="menu_wage_query" mnemonicParsing="false" text="工资查询" />
+                        <MenuItem fx:id="menu_wage_set" mnemonicParsing="false" text="工资设定" />
                     </items>
                 </Menu>
-                <Menu fx:id="menu_exit" mnemonicParsing="false" text="退出系统"/>
+                <Menu fx:id="menu_exit" mnemonicParsing="false" text="退出系统" />
             </menus>
         </MenuBar>
     </top>
     <center>
-        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="513.0" prefWidth="837.0" text="员工管理系统"
-               textAlignment="JUSTIFY" textOverrun="CLIP" wrapText="true" BorderPane.alignment="CENTER">
+        <Label fx:id="label" alignment="CENTER" contentDisplay="CENTER" prefHeight="513.0" prefWidth="837.0" text="人力资源管理系统" textAlignment="JUSTIFY" textOverrun="CLIP" wrapText="true" BorderPane.alignment="CENTER">
             <font>
-                <Font name="System Bold Italic" size="63.0"/>
+                <Font name="System Bold Italic" size="63.0" />
             </font>
         </Label>
     </center>

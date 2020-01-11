@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StaffManagerSystem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StaffManagerSystem.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/fxml/main.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/main.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/main.fxml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,8 +75,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1WBkieDcBjzK6U42SCW4l7Osvcz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -84,6 +99,9 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
@@ -227,33 +245,41 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578638317194">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578754228509">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578638317194" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578754228509" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1578637952048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578637952048" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578640943682">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578756145812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578640943682" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578640943682">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578756145812" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578756145812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578640943682" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578640943682">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578756145812" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578756145812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578640943682" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578640943682">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578756145812" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578756145812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578640943682" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1578633678957">
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578756145812" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1578751606255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578633678957" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578751606255" />
+    <state x="636" y="119" width="647" height="801" key="find.popup" timestamp="1578752211134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578752211134" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578751759226">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578751759226" />
   </component>
 </project>
