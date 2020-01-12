@@ -1,5 +1,7 @@
 package com.jamiexu.staffmanager;
 
+import com.jamiexu.staffmanager.view.NewStaff;
+import com.jamiexu.staffmanager.view.NewStafffActivity;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -61,9 +63,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         this.root = FXMLLoader.load(getClass().getResource("fxml/main.fxml"));
-//        this.root.lookup()
         Scene scene = new Scene(root);
-        primaryStage.setTitle("员工管理系统");
+        primaryStage.setTitle("人力资源管理系统");
         primaryStage.setScene(scene);
         primaryStage.show();
     }
@@ -79,7 +80,11 @@ public class Main extends Application {
          */
 //        System.out.println(this.menu_staff_new);
         menu_staff_new.setOnAction(event -> {
-            System.out.println(132);
+            try {
+                new NewStafffActivity().start(new Stage());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         });
 
         this.menu_exit.setOnAction(event -> {
