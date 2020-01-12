@@ -106,7 +106,7 @@
       <recent name="E:\IdeaProject\StaffManagerSystem\src\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ModifyDepartment">
+  <component name="RunManager" selected="Application.WageSetting">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -204,8 +204,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NewStaff" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jamiexu.staffmanager.view.NewStaff" />
+    <configuration name="WageSetting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jamiexu.staffmanager.view.WageSetting" />
       <module name="StaffManagerSystem" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -257,6 +257,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WageSetting" />
         <item itemvalue="Application.ModifyDepartment" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.NewDepartment" />
@@ -305,30 +306,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578793298468" />
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578832416939">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1578835355972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578832416939" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578835355972" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1578637952048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578637952048" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578834958798">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578837239654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578834958798" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578834958798">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578837239654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578834958798" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578834958798">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578837239654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578834958798" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578834958798">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578837239654">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578834958798" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578751606255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
