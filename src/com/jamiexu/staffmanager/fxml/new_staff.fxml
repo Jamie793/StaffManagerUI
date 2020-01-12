@@ -115,7 +115,7 @@
                                         <Insets left="15.0" />
                                     </padding>
                                 </Label>
-                                <ChoiceBox prefHeight="23.0" prefWidth="104.0" />
+                                <TextField prefHeight="23.0" prefWidth="104.0" />
                             </children>
                         </HBox>
 

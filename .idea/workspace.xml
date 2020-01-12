@@ -4,6 +4,7 @@
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_staff.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_staff.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_staff.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_staff.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,9 +293,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="119" width="647" height="801" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578752211134" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578751759226">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1578823567485">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578751759226" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578823567485" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import java.lang.*?>
+<?import javafx.collections.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
@@ -38,7 +39,7 @@
             </HBox>
          </center>
       </BorderPane>
-      <BorderPane layoutX="14.0" layoutY="88.0" prefHeight="350.0" prefWidth="267.0">
+      <BorderPane layoutX="14.0" layoutY="88.0" prefHeight="374.0" prefWidth="267.0">
          <top>
             <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
          </top>
@@ -65,62 +66,179 @@
                                  <padding>
                                     <Insets left="10.0" />
                                  </padding></Label>
-                              <TextField prefHeight="23.0" prefWidth="147.0" />
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
                            </children>
                         </HBox>
 
                         <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
                            <VBox.margin>
-                              <Insets top="20.0" />
+                              <Insets />
                            </VBox.margin>
                            <children>
                               <Label text="性别：">
                                  <padding>
                                     <Insets left="10.0" />
                                  </padding></Label>
-                              <TextField prefHeight="23.0" prefWidth="147.0" />
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
                            </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
                         </HBox>
 
                         <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
                            <VBox.margin>
-                              <Insets top="20.0" />
+                              <Insets />
                            </VBox.margin>
                            <children>
                               <Label text="年龄：">
                                  <padding>
                                     <Insets left="10.0" />
                                  </padding></Label>
-                              <TextField prefHeight="23.0" prefWidth="147.0" />
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
                            </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
                         </HBox>
 
                         <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
                            <VBox.margin>
-                              <Insets top="20.0" />
+                              <Insets />
                            </VBox.margin>
                            <children>
                               <Label text="时间：">
                                  <padding>
                                     <Insets left="10.0" />
                                  </padding></Label>
-                              <TextField prefHeight="23.0" prefWidth="147.0" />
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
                            </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
                         </HBox>
 
 
                         <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
                            <VBox.margin>
-                              <Insets top="20.0" />
+                              <Insets />
                            </VBox.margin>
                            <children>
                               <Label text="部门：">
                                  <padding>
                                     <Insets left="10.0" />
                                  </padding></Label>
-                              <TextField prefHeight="23.0" prefWidth="147.0" />
+                              <ChoiceBox prefHeight="23.0" prefWidth="107.0">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="销售部" />
+                                       <String fx:value="开发部" />
+                                       <String fx:value="策划部" />
+                                       <String fx:value="客服部" />
+                                    </FXCollections>
+                                 </items>
+                                 <value>
+                                    <String fx:value="销售部" />
+                                 </value>
+                              </ChoiceBox>
                            </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
                         </HBox>
+
+
+                        <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <Label text="职位：">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></Label>
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
+                           </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
+                        </HBox>
+
+
+
+                        <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <Label text="职称：">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></Label>
+                              <TextField prefHeight="23.0" prefWidth="107.0" />
+                           </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
+                        </HBox>
+
+                        <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <Label text="面貌：">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></Label>
+                              <ChoiceBox prefHeight="23.0" prefWidth="107.0">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="群众" />
+                                       <String fx:value="团员" />
+                                       <String fx:value="党员" />
+                                    </FXCollections>
+                                 </items>
+                                 <value>
+                                    <String fx:value="群众" />
+                                 </value>
+                              </ChoiceBox>
+                           </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
+                        </HBox>
+
+
+
+                        <HBox alignment="CENTER_LEFT" prefHeight="29.0" prefWidth="257.0">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <children>
+                              <Label text="婚姻：">
+                                 <padding>
+                                    <Insets left="10.0" />
+                                 </padding></Label>
+                              <ChoiceBox prefHeight="23.0" prefWidth="107.0">
+                                 <items>
+                                    <FXCollections fx:factory="observableArrayList">
+                                       <String fx:value="未婚" />
+                                       <String fx:value="已婚" />
+                                    </FXCollections>
+                                 </items>
+                                 <value>
+                                    <String fx:value="未婚" />
+                                 </value>
+                              </ChoiceBox>
+                           </children>
+                           <padding>
+                              <Insets top="15.0" />
+                           </padding>
+                        </HBox>
+
+
+
                      </children>
                   </VBox>
                </children>
