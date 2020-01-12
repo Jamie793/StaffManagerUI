@@ -1,6 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="370.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.ModifyDepartment">
+   <children>
+       <BorderPane layoutX="14.0" layoutY="14.0" prefHeight="59.0" prefWidth="309.0">
+           <bottom>
+               <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+           </bottom>
+           <center>
+               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                   <children>
+                       <ChoiceBox prefHeight="23.0" prefWidth="96.0">
+                           <String fx:value="按编号查询" />
+                           <String fx:value="按名称查询" />
+                           <value>
+                               <String fx:value="按编号查询" />
+                           </value>
+                       </ChoiceBox>
+                       <TextField prefHeight="23.0" prefWidth="85.0">
+                           <opaqueInsets>
+                               <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                               <Insets left="10.0" />
+                           </HBox.margin>
+                       </TextField>
+                       <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="51.0" text="查询">
+                           <HBox.margin>
+                               <Insets left="10.0" />
+                           </HBox.margin></Button>
+                   </children>
+               </HBox>
+           </center>
+       </BorderPane>
+      <BorderPane layoutX="17.0" layoutY="90.0" prefHeight="206.0" prefWidth="258.0">
+         <left>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <Pane prefHeight="208.0" prefWidth="246.0" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox layoutY="1.0" prefHeight="206.0" prefWidth="250.0">
+                     <children>
+                        <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="250.0">
+                           <children>
+                              <Label text="部门编号：">
+                                 <HBox.margin>
+                                    <Insets left="5.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <TextField />
+                           </children>
+                           <VBox.margin>
+                              <Insets top="15.0" />
+                           </VBox.margin>
+                        </HBox>
+
+                         <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="250.0">
+                             <children>
+                                 <Label text="部门名称：">
+                                     <HBox.margin>
+                                         <Insets left="5.0" />
+                                     </HBox.margin>
+                                 </Label>
+                                 <TextField />
+                             </children>
+                         </HBox>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.ModifyDepartment"/>
+                         <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="250.0">
+                             <children>
+                                 <Label text="部门负责人：">
+                                     <HBox.margin>
+                                         <Insets left="5.0" />
+                                     </HBox.margin>
+                                 </Label>
+                                 <TextField prefHeight="23.0" prefWidth="150.0" />
+                             </children>
+                         </HBox>
+
+
+                         <HBox alignment="CENTER_LEFT" prefHeight="46.0" prefWidth="250.0">
+                             <children>
+                                 <Label text="部门人数：">
+                                     <HBox.margin>
+                                         <Insets left="5.0" />
+                                     </HBox.margin>
+                                 </Label>
+                                 <TextField />
+                             </children>
+                         </HBox>
+
+
+                     </children>
+                  </VBox>
+               </children>
+            </Pane>
+         </center>
+      </BorderPane>
+      <HBox alignment="CENTER" layoutX="28.0" layoutY="310.0" prefHeight="46.0" prefWidth="265.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="77.0" text="修改" />
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="77.0" text="删除">
+               <HBox.margin>
+                  <Insets left="20.0" />
+               </HBox.margin></Button>
+         </children>
+      </HBox>
+      <Label layoutX="38.0" layoutY="83.0" text="部门信息">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>
