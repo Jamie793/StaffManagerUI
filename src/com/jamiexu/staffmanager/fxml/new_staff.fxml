@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.collections.FXCollections?>
+<?import java.lang.*?>
+<?import javafx.collections.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
-<?import java.lang.*?>
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
-      prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.NewStaff">
     <children>
         <BorderPane layoutX="37.0" layoutY="26.0" prefHeight="180.0" prefWidth="527.0">
             <top>
-                <Separator prefWidth="200.0" BorderPane.alignment="CENTER"/>
+                <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
             </top>
             <bottom>
-                <Separator prefWidth="200.0" BorderPane.alignment="CENTER"/>
+                <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
             </bottom>
             <left>
-                <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER"/>
+                <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
             </left>
             <right>
-                <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER"/>
+                <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
             </right>
             <center>
                 <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
@@ -29,160 +29,168 @@
                             <children>
                                 <Label text="姓名：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="25.0"/>
+                                        <Insets left="25.0" />
                                     </padding>
                                 </Label>
                                 <TextField prefHeight="23.0" prefWidth="111.0">
                                     <padding>
-                                        <Insets right="10.0"/>
+                                        <Insets right="10.0" />
                                     </padding>
                                 </TextField>
                                 <Label text="性别：">
                                     <font>
-                                        <Font size="13.0"/>
+                                        <Font size="13.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
                                 <ChoiceBox prefHeight="23.0" prefWidth="91.0">
                                     <items>
                                         <FXCollections fx:factory="observableArrayList">
-                                            <String fx:value="男"/>
-                                            <String fx:value="女"/>
+                                            <String fx:value="男" />
+                                            <String fx:value="女" />
                                         </FXCollections>
                                     </items>
                                     <value>
-                                        <String fx:value="男"/>
+                                        <String fx:value="男" />
                                     </value>
                                 </ChoiceBox>
                                 <Label text="年龄：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
-                                <TextField prefHeight="23.0" prefWidth="105.0"/>
+                                <TextField prefHeight="23.0" prefWidth="105.0" />
                             </children>
                         </HBox>
 
-                        <HBox alignment="BOTTOM_LEFT" layoutX="-1.0" layoutY="62.0" prefHeight="36.0" prefWidth="518.0">
+                        <HBox alignment="BOTTOM_LEFT" layoutX="-1.0" layoutY="50.0" prefHeight="36.0" prefWidth="518.0">
                             <children>
                                 <Label text="时间：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="25.0"/>
+                                        <Insets left="25.0" />
                                     </padding>
                                 </Label>
                                 <TextField prefHeight="23.0" prefWidth="111.0">
                                     <padding>
-                                        <Insets right="10.0"/>
+                                        <Insets right="10.0" />
                                     </padding>
                                 </TextField>
                                 <Label text="部门：">
                                     <font>
-                                        <Font size="13.0"/>
+                                        <Font size="13.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
                                 <ChoiceBox prefHeight="23.0" prefWidth="91.0">
                                     <items>
                                         <FXCollections fx:factory="observableArrayList">
-                                            <String fx:value="销售部"/>
-                                            <String fx:value="开发部"/>
-                                            <String fx:value="策划部"/>
-                                            <String fx:value="客服部"/>
+                                            <String fx:value="销售部" />
+                                            <String fx:value="开发部" />
+                                            <String fx:value="策划部" />
+                                            <String fx:value="客服部" />
                                         </FXCollections>
                                     </items>
                                     <value>
-                                        <String fx:value="销售部"/>
+                                        <String fx:value="销售部" />
                                     </value>
                                 </ChoiceBox>
                                 <Label text="职位：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
-                                <ChoiceBox prefHeight="23.0" prefWidth="104.0"/>
+                                <ChoiceBox prefHeight="23.0" prefWidth="104.0" />
                             </children>
                         </HBox>
 
 
-                        <HBox alignment="BOTTOM_LEFT" layoutX="-1.0" layoutY="105.0" prefHeight="36.0"
-                              prefWidth="518.0">
+                        <HBox alignment="BOTTOM_LEFT" layoutX="-1.0" layoutY="92.0" prefHeight="29.0" prefWidth="518.0">
                             <children>
                                 <Label text="职称：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="25.0"/>
+                                        <Insets left="25.0" />
                                     </padding>
                                 </Label>
                                 <TextField prefHeight="23.0" prefWidth="111.0">
                                     <padding>
-                                        <Insets right="10.0"/>
+                                        <Insets right="10.0" />
                                     </padding>
                                 </TextField>
                                 <Label text="面貌：">
                                     <font>
-                                        <Font size="13.0"/>
+                                        <Font size="13.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
                                 <ChoiceBox prefHeight="23.0" prefWidth="91.0">
                                     <items>
                                         <FXCollections fx:factory="observableArrayList">
-                                            <String fx:value="群众"/>
-                                            <String fx:value="团员"/>
-                                            <String fx:value="党员"/>
+                                            <String fx:value="群众" />
+                                            <String fx:value="团员" />
+                                            <String fx:value="党员" />
                                         </FXCollections>
                                     </items>
                                     <value>
-                                        <String fx:value="群众"/>
+                                        <String fx:value="群众" />
                                     </value>
                                 </ChoiceBox>
                                 <Label text="婚姻：">
                                     <font>
-                                        <Font size="14.0"/>
+                                        <Font size="14.0" />
                                     </font>
                                     <padding>
-                                        <Insets left="15.0"/>
+                                        <Insets left="15.0" />
                                     </padding>
                                 </Label>
                                 <ChoiceBox prefHeight="23.0" prefWidth="104.0">
-                                    <String fx:value="已婚"/>
-                                    <String fx:value="未婚"/>
+                                    <String fx:value="已婚" />
+                                    <String fx:value="未婚" />
                                     <value>
-                                        <String fx:value="未婚"/>
+                                        <String fx:value="未婚" />
                                     </value>
                                 </ChoiceBox>
                             </children>
                         </HBox>
+                  <HBox alignment="CENTER" layoutX="14.0" layoutY="138.0" prefHeight="36.0" prefWidth="504.0">
+                     <children>
+                        <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="76.0" text="添加" />
+                        <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="73.0" text="取消">
+                           <HBox.margin>
+                              <Insets left="50.0" />
+                           </HBox.margin></Button>
+                     </children>
+                  </HBox>
 
                     </children>
                 </Pane>
             </center>
         </BorderPane>
-        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="7.0" prefHeight="36.0"
-               prefWidth="72.0" text="员工信息" textAlignment="CENTER">
+        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="55.0" layoutY="7.0" prefHeight="36.0" prefWidth="72.0" text="员工信息" textAlignment="CENTER">
             <font>
-                <Font name="System Bold" size="14.0"/>
+                <Font name="System Bold" size="14.0" />
             </font>
         </Label>
+      <TableView fx:id="list_info" layoutX="37.0" layoutY="215.0" prefHeight="174.0" prefWidth="527.0" />
     </children>
 </Pane>

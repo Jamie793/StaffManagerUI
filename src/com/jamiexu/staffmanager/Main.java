@@ -1,7 +1,6 @@
 package com.jamiexu.staffmanager;
 
 import com.jamiexu.staffmanager.view.NewStaff;
-import com.jamiexu.staffmanager.view.NewStafffActivity;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -13,8 +12,6 @@ import javafx.scene.control.Menu;
 import javafx.scene.control.MenuBar;
 import javafx.scene.control.MenuItem;
 import javafx.stage.Stage;
-
-import java.lang.management.ThreadInfo;
 
 public class Main extends Application {
 
@@ -81,7 +78,7 @@ public class Main extends Application {
 //        System.out.println(this.menu_staff_new);
         menu_staff_new.setOnAction(event -> {
             try {
-                new NewStafffActivity().start(new Stage());
+                new NewStaff().start(new Stage());
             } catch (Exception e) {
                 e.printStackTrace();
             }
