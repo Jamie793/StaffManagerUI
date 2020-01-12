@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="260.0" prefWidth="399.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.NewDepartment">
+   <children>
+      <BorderPane layoutX="27.0" layoutY="30.0" prefHeight="183.0" prefWidth="314.0">
+         <left>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <VBox prefHeight="183.0" prefWidth="290.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="392.0">
+                   <children>
+                       <Label text="部门编号：">
+                           <padding>
+                               <Insets left="10.0" />
+                           </padding>
+                       </Label>
+                       <TextField />
+                   </children>
+                   <VBox.margin>
+                       <Insets top="20.0" />
+                   </VBox.margin></HBox>
+
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="392.0">
+                       <children>
+                           <Label text="部门名称：">
+                               <padding>
+                                   <Insets left="10.0" />
+                               </padding>
+                           </Label>
+                           <TextField />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin></HBox>
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="392.0">
+                       <children>
+                           <Label text="部门负责人：">
+                               <padding>
+                                   <Insets left="10.0" />
+                               </padding>
+                           </Label>
+                           <TextField prefHeight="23.0" prefWidth="147.0" />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin></HBox>
+
+
+
+
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+      <Label layoutX="41.0" layoutY="17.0" prefHeight="26.0" prefWidth="77.0" text="部门信息：">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+   </children>
+</Pane>

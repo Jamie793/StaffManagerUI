@@ -11,22 +11,17 @@
                 <Menu mnemonicParsing="false" text="员工资料管理">
                     <items>
                         <MenuItem fx:id="menu_staff_new" mnemonicParsing="false" text="添加员工" />
-                        <MenuItem fx:id="menu_staff_modify" mnemonicParsing="false" text="修改资料" />
-                        <MenuItem fx:id="menu_staff_query" mnemonicParsing="false" text="员工查询" />
-                        <MenuItem fx:id="menu_staff_delete" mnemonicParsing="false" text="删除员工" />
+                        <MenuItem fx:id="menu_staff_operation" mnemonicParsing="false" text="员工查询" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="部门信息管理">
                     <items>
                         <MenuItem fx:id="menu_department_new" mnemonicParsing="false" text="添加部门" />
-                        <MenuItem fx:id="menu_department_modify" mnemonicParsing="false" text="修改资料" />
-                        <MenuItem fx:id="menu_department_query" mnemonicParsing="false" text="部门查询" />
-                        <MenuItem fx:id="menu_department_delete" mnemonicParsing="false" text="删除部门" />
+                        <MenuItem fx:id="menu_department_operation" mnemonicParsing="false" text="部门查询" />
                     </items>
                 </Menu>
                 <Menu mnemonicParsing="false" text="员工资管理">
                     <items>
-                        <MenuItem fx:id="menu_wage_query" mnemonicParsing="false" text="工资查询" />
                         <MenuItem fx:id="menu_wage_set" mnemonicParsing="false" text="工资设定" />
                     </items>
                 </Menu>

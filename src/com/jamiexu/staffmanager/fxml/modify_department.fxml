@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="302.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.ModifyDepartment">
+   <children>
+       <BorderPane layoutX="14.0" layoutY="14.0" prefHeight="59.0" prefWidth="309.0">
+           <bottom>
+               <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+           </bottom>
+           <center>
+               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                   <children>
+                       <ChoiceBox prefHeight="23.0" prefWidth="96.0">
+                           <String fx:value="按编号查询" />
+                           <String fx:value="按名称查询" />
+                           <value>
+                               <String fx:value="按编号查询" />
+                           </value>
+                       </ChoiceBox>
+                       <TextField prefHeight="23.0" prefWidth="85.0">
+                           <opaqueInsets>
+                               <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                               <Insets left="10.0" />
+                           </HBox.margin>
+                       </TextField>
+                       <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="51.0" text="查询">
+                           <HBox.margin>
+                               <Insets left="10.0" />
+                           </HBox.margin></Button>
+                   </children>
+               </HBox>
+           </center>
+       </BorderPane>
+   </children>
+</Pane>

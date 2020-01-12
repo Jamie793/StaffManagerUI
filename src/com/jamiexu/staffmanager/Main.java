@@ -1,6 +1,8 @@
 package com.jamiexu.staffmanager;
 
+import com.jamiexu.staffmanager.view.ModifyDepartment;
 import com.jamiexu.staffmanager.view.ModifyStaff;
+import com.jamiexu.staffmanager.view.NewDepartment;
 import com.jamiexu.staffmanager.view.NewStaff;
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -22,28 +24,13 @@ public class Main extends Application {
     public MenuItem menu_staff_new;
 
     @FXML
-    public MenuItem menu_staff_modify;
-
-    @FXML
-    public MenuItem menu_staff_query;
-
-    @FXML
-    public MenuItem menu_staff_delete;
+    public MenuItem menu_staff_operation;
 
     @FXML
     public MenuItem menu_department_new;
 
     @FXML
-    public MenuItem menu_department_modify;
-
-    @FXML
-    public MenuItem menu_department_query;
-
-    @FXML
-    public MenuItem menu_department_delete;
-
-    @FXML
-    public MenuItem menu_wage_query;
+    public MenuItem menu_department_operation;
 
     @FXML
     public MenuItem menu_wage_set;
@@ -80,9 +67,25 @@ public class Main extends Application {
         });
 
 
-        menu_staff_modify.setOnAction(event -> {
+        menu_staff_operation.setOnAction(event -> {
             try {
                 new ModifyStaff().start(new Stage());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+        menu_department_new.setOnAction(event -> {
+            try {
+                new NewDepartment().start(new Stage());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+        menu_department_operation.setOnAction(event -> {
+            try {
+                new ModifyDepartment().start(new Stage());
             } catch (Exception e) {
                 e.printStackTrace();
             }
