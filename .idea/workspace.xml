@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/fxml/new_staff.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/fxml/new_staff.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/view/NewStafffActivity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StaffManagerSystem/com/jamiexu/staffmanager/view/NewStafffActivity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_staff.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_staff.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/view/NewStaff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/view/NewStaff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/view/NewStafffActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_staff.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_staff.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +106,7 @@
       <recent name="E:\IdeaProject\StaffManagerSystem\src\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NewStafffActivity">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -221,7 +215,6 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NewStafffActivity" />
         <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
@@ -275,22 +268,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578637952048" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578792954641">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578793604176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578792954641" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578792954641">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578793604176" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578793604176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578792954641" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578792954640">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578793604176" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578793604176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578792954640" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578792954641">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578793604176" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578793604176">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578792954641" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578793604176" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578751606255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
