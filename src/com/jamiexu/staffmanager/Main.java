@@ -1,5 +1,6 @@
 package com.jamiexu.staffmanager;
 
+import com.jamiexu.staffmanager.view.ModifyStaff;
 import com.jamiexu.staffmanager.view.NewStaff;
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -53,9 +54,6 @@ public class Main extends Application {
     @FXML
     public MenuBar menu_bar;
 
-    @FXML
-    private Label label;
-
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -66,9 +64,6 @@ public class Main extends Application {
         primaryStage.show();
     }
 
-    public void onLabelAction(){
-        System.out.println(this.menu_staff_new);
-    }
 
     @FXML
     public void initialize() {
@@ -84,6 +79,16 @@ public class Main extends Application {
             }
         });
 
+
+        menu_staff_modify.setOnAction(event -> {
+            try {
+                new ModifyStaff().start(new Stage());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+
         this.menu_exit.setOnAction(event -> {
             Stage stage = (Stage) root.getScene().getWindow();
             stage.close();
@@ -92,31 +97,6 @@ public class Main extends Application {
     }
 
 
-    public void initMenu() {
-//        this.menu_staff_new = this.root.lookup("#menu_bar");
-        System.out.println(this.menu_staff_new);
-//        menu_staff_new.setOnAction(event -> {
-//            System.out.println(132);
-//        });
-
-//        MenuBar menuBar = new MenuBar();
-//        borderPane.setTop(menuBar);
-//
-//        Menu menu_staff = new Menu("员工管理");
-//        MenuItem menu_staff_new = new MenuItem("添加员工");
-//        MenuItem menu_staff_modify = new MenuItem("修改员工");
-//        MenuItem menu_staff_del = new MenuItem("删除员工");
-//        menu_staff.getItems().addAll(menu_staff_new,menu_staff_modify,menu_staff_del);
-//
-//
-//        Menu menu_department = new Menu("部门管理");
-//        MenuItem menu_department_new = new MenuItem("添加部门");
-//        MenuItem menu_department_modify = new MenuItem("修改部门");
-//        MenuItem menu_department_del = new MenuItem("删除部门");
-//        menu_department.getItems().addAll(menu_department_new,menu_department_modify,menu_department_del);
-//
-//        menuBar.getMenus().addAll(menu_staff,menu_department);
-    }
 
     public static void main(String[] args) {
         launch(args);
