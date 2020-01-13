@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_department.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/modify_department.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_department.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/new_department.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/wage_setting.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/jamiexu/staffmanager/fxml/wage_setting.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +108,7 @@
       <recent name="E:\IdeaProject\StaffManagerSystem\src\Resource" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WageSetting">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -257,9 +259,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.WageSetting" />
         <item itemvalue="Application.ModifyDepartment" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.NewDepartment" />
         <item itemvalue="Application.ModifyStaff" />
       </list>
@@ -314,22 +316,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578637952048" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578837239654">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1578919672460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578837239654">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578919672460" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1578919672460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578837239654">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578919672460" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1578919672459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578837239654">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578919672459" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1578919672460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578837239654" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578919672460" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1578751606255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

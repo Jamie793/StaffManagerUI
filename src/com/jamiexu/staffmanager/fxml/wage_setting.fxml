@@ -1,6 +1,201 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="407.0" prefWidth="552.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.WageSetting">
+   <children>
+       <HBox alignment="CENTER" prefHeight="64.0" prefWidth="387.0" BorderPane.alignment="CENTER">
+           <children>
+               <ChoiceBox prefHeight="23.0" prefWidth="96.0">
+                   <String fx:value="按编号查询" />
+                   <String fx:value="按名称查询" />
+                   <value>
+                       <String fx:value="按编号查询" />
+                   </value>
+               </ChoiceBox>
+               <TextField prefHeight="23.0" prefWidth="85.0">
+                   <opaqueInsets>
+                       <Insets />
+                   </opaqueInsets>
+                   <HBox.margin>
+                       <Insets left="10.0" />
+                   </HBox.margin>
+               </TextField>
+               <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="51.0" text="查询">
+                   <HBox.margin>
+                       <Insets left="10.0" />
+                   </HBox.margin></Button>
+           </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+       </HBox>
+
+      <BorderPane layoutX="36.0" layoutY="97.0" prefHeight="253.0" prefWidth="463.0">
+         <left>
+            <Separator orientation="VERTICAL" prefHeight="200.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="0.0" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <Separator prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </bottom>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                     <children>
+                        <Label text="编号：">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                        </Label>
+                        <TextField />
+                         <Label text="姓名：">
+                           <HBox.margin>
+                              <Insets left="10.0" />
+                           </HBox.margin>
+                         </Label>
+                         <TextField />
+                     </children>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </HBox>
 
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.jamiexu.staffmanager.view.WageSetting"/>
+                   <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                       <children>
+                           <Label text="基本：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                           <Label text="岗位：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin>
+                   </HBox>
+
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                       <children>
+                           <Label text="住房：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                           <Label text="津贴：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin>
+                   </HBox>
+
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                       <children>
+                           <Label text="会费：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                           <Label text="水电：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin>
+                   </HBox>
+
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                       <children>
+                           <Label text="公积：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                           <Label text="养老：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin>
+                   </HBox>
+
+                   <HBox alignment="CENTER_LEFT" prefHeight="36.0" prefWidth="285.0">
+                       <children>
+                           <Label text="奖惩：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                           <TextField />
+                           <Label text="年月：">
+                               <HBox.margin>
+                                   <Insets left="10.0" />
+                               </HBox.margin>
+                           </Label>
+                        <DatePicker prefHeight="23.0" prefWidth="161.0" />
+                       </children>
+                       <VBox.margin>
+                           <Insets />
+                       </VBox.margin>
+                   </HBox>
+
+
+
+
+               </children>
+            </VBox>
+         </center></BorderPane>
+      <Separator layoutX="37.0" layoutY="60.0" prefHeight="0.0" prefWidth="492.0" />
+      <Label layoutX="47.0" layoutY="88.0" text="工资修改">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" layoutX="80.0" layoutY="357.0" prefHeight="40.0" prefWidth="376.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="79.0" text="修改" />
+            <Button mnemonicParsing="false" prefHeight="23.0" prefWidth="83.0" text="删除">
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</Pane>

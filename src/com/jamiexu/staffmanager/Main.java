@@ -1,9 +1,6 @@
 package com.jamiexu.staffmanager;
 
-import com.jamiexu.staffmanager.view.ModifyDepartment;
-import com.jamiexu.staffmanager.view.ModifyStaff;
-import com.jamiexu.staffmanager.view.NewDepartment;
-import com.jamiexu.staffmanager.view.NewStaff;
+import com.jamiexu.staffmanager.view.*;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
@@ -86,6 +83,14 @@ public class Main extends Application {
         menu_department_operation.setOnAction(event -> {
             try {
                 new ModifyDepartment().start(new Stage());
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
+        menu_wage_set.setOnAction(event -> {
+            try {
+                new WageSetting().start(new Stage());
             } catch (Exception e) {
                 e.printStackTrace();
             }
