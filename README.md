@@ -1,1 +1,1 @@
-这是JavaFx的一个ideaproject工程
+这是一个基于JavaFx的工程，这个项目只是一个用fx写的人力资源管理ui和一部分的java代码主要还是ui只有简单的菜单功能无其他任何功能
